@@ -62,3 +62,14 @@ for (let i=0;i<wDiv.length;i++){
 	}
 	
 }
+
+
+
+//结构赋值      
+//本质上是一种匹配模式   只要等式两边的格式相同  则左边变量就可以被赋值
+//数组
+let [i,j,k]=[1,2,3]
+console.log(i,j,k)
+let [aa,[bb,cc]]=[2,[[2],3]]
+console.log(aa,bb,cc)   //2,[2],3
+//对象
