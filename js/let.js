@@ -72,4 +72,14 @@ let [i,j,k]=[1,2,3]
 console.log(i,j,k)
 let [aa,[bb,cc]]=[2,[[2],3]]
 console.log(aa,bb,cc)   //2,[2],3
+
+let [y=1]=[]
+console.log(y)  //1
 //对象
+let {aaa,bbb}={bbb:"bbbb",aaa:"aaaa"}
+console.log(aaa,bbb)  // aaaa  bbbb
+
+
+let {bb:jj}={bb:123}
+console.log(jj)  //123
+//console.log(bb)  //报错
